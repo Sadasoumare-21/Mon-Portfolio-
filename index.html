@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dramane Soumaré | Portfolio</title>
+    <!-- Fichier CSS principal -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ================= HEADER / NAVIGATION ================= -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Mikey <span class="emoji">😛</span></h2>
+            <ul class="liste">
+                <li><a href="#apropos">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" title="Ouvrir le menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Activer le mode clair" title="Changer de thème">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="social-links" aria-label="Mes réseaux sociaux">
+        <a href="https://www.instagram.com/yuji_minato" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+            <img src="Image/instasvg.svg" alt="">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <img src="Image/linkedin.svg" alt="">
+        </a>
+        <a href="https://wa.me/221787661360" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+            <img src="Image/whatsapp_svg.svg" alt="">
+        </a>
+        <a href="https://github.com/sadasoumare-21" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+            <img src="Image/github.svg" alt="" class="social-github">
+        </a>
+    </aside>
+
+    <main>
+        <section id="apropos" class="hero-section">
+            <div class="hero-container">
+                <!-- Bloc Texte -->
+                <div class="hero-content">
+                    <div class="badge-quote">
+                        <i class="fas fa-quote-left"></i> "Transforming ideas into digital reality"
+                    </div>
+                    
+                    <h1 class="hero-title">Salut, je suis <span>Dramane Soumaré</span></h1>
+                    
+                    <p class="hero-description">
+                        Développeur front-end passionné par la création d'interfaces web modernes et réactives. 
+                        Explorez mon portfolio pour découvrir mes projets et compétences. Avec une solide formation 
+                        en développement web et une passion pour le design, je m'efforce de créer des expériences 
+                        utilisateur exceptionnelles et performantes.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="Dramane_Soumare_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            Voir mon CV <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="Dramane_Soumare_CV.pdf" download="Dramane_Soumare_CV.pdf" class="btn btn-outline">
+                            Télécharger mon CV <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Bloc Image avec effet Glow -->
+                <div class="hero-image-wrapper">
+                    <div class="glow-effect"></div>
+                    <div class="image-card">
+                        <img src="Image/Dra.png" alt="Dramane Soumaré" class="photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <div class="services-container">
+                <article class="service">
+                    <h3>💻 Développement Web</h3>
+                    <p>Création de sites web modernes et réactifs en utilisant les dernières technologies.</p>
+                </article>
+                <article class="service">
+                    <h3>🎨 Design UI/UX</h3>
+                    <p>Conception d'interfaces utilisateur intuitives et attrayantes pour une expérience optimale.</p>
+                </article>
+                <article class="service">
+                    <h3>🔍 Optimisation SEO</h3>
+                    <p>Amélioration de la visibilité des sites web sur les moteurs de recherche grâce à des techniques SEO efficaces.</p>
+                </article>
+                <article class="service">
+                    <h3>🔧 Maintenance</h3>
+                    <p>Assurance de la performance et de la sécurité des sites web existants.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="competences">
+            <h2>Compétences</h2>
+            <div class="competences-container">
+                <article class="competence">
+                    <img src="Image/html5.svg" alt="HTML5" class="icon html">
+                    <h3>HTML</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/css3.svg" alt="CSS3" class="icon css">
+                    <h3>CSS</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/javascript.svg" alt="JavaScript" class="icon js">
+                    <h3>JavaScript</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/git.svg" alt="Git" class="icon git">
+                    <h3>Git</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/github.svg" alt="GitHub" class="icon github">
+                    <h3>GitHub</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/tailwindcss.svg" alt="Tailwind CSS" class="icon tailwindcss">
+                    <h3>Tailwind CSS</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/typescript.svg" alt="TypeScript" class="icon typescript">
+                    <h3>TypeScript</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/react.svg" alt="React" class="icon react">
+                    <h3>React</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/java.svg" alt="Java" class="icon java">
+                    <h3>Java</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/python.svg" alt="Python" class="icon python">
+                    <h3>Python</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/nodejs.svg" alt="Node.js" class="icon nodejs">
+                    <h3>Node.js</h3>
+                </article>
+                <article class="competence">
+                    <img src="Image/nestjs.svg" alt="NestJS" class="icon nestjs">
+                    <h3>NestJS</h3>
+                </article>
+                
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Expérience</h2>
+
+            <div class="experience-container">
+                <div class="experience l1">
+                    <h3>Stagiaire – TGI</h3>
+                    <p class="entreprise">Tout en Génie Informatique (TGI)</p>
+                    <p class="date">2024 - 2025</p>
+                    <p>
+                        Stage au sein de TGI, avec une participation à différentes
+                        activités informatiques, notamment la maintenance informatique,
+                        la création et la retouche d'images avec Photoshop, ainsi que
+                        la conception et la gestion de sites web avec WordPress.
+                    </p>
+                </div>
+
+                <div class="experience l2">
+                    <h3>Stagiaire Développeur Web Frontend</h3>
+                    <p class="entreprise">Aiglix Lab</p>
+                    <p class="date">2025 - 2026</p>
+                    <p>
+                        Participation au développement d'interfaces web modernes et
+                        responsives à partir de maquettes Figma, en utilisant
+                        React, TypeScript et Tailwind CSS.
+                    </p>
+                </div>
+
+                <article class="experience">
+                    <h3>Participant – Hackathon</h3>
+                    <p class="entreprise">Club Informatique</p>
+                    <p class="date">22 – 23 août 2026</p>
+                    <p>
+                        Participation à un hackathon autour du thème :
+                        <strong>« Réduire les inondations à Dakar »</strong>.
+                        Travail en équipe sur la conception d'une solution numérique
+                        visant à prévenir les risques d'inondation et à limiter leurs impacts.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+       <section id="projets">
+            <h2>Projets</h2>
+            <div class="projets-container">
+                
+                <div class="projet-group">
+                    <h3>Projets collectifs</h3>
+                    <div class="projet-cards-wrapper">
+                        <div class="projet-card">
+                            <h4>Application de Gestion de Tâches</h4>
+                            <p>Une application web permettant aux utilisateurs de gérer leurs tâches quotidiennes avec une interface intuitive.</p>
+                            <a href="https://task-api-one-blush.vercel.app/" target="_blank" class="btn-projet">
+                                Voir le projet <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="projet-card">
+                            <h4>Election-sen</h4>
+                            <p>Une application web pour la gestion des élections au Sénégal.</p>
+                            <a href="https://election-sen.vercel.app/" target="_blank" class="btn-projet">
+                                Voir le projet <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet-group">
+                    <h3>Projets personnels</h3>
+                    <div class="projet-cards-wrapper">
+                        <div class="projet-card">
+                            <h4>Portfolio Personnel</h4>
+                            <p>Un site web personnel présentant mes compétences, projets et expériences.</p>
+                            <a href="#" class="btn-projet disabled">Voir le projet</a>
+                        </div>
+
+                        <div class="projet-card">
+                            <h4>CoffeeLaab</h4>
+                            <p>Un site vitrine pour présenter un café.</p>
+                            <a href="https://coffee-laab.vercel.app/" target="_blank" class="btn-projet">
+                                Voir le projet <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="projet-card">
+                            <h4>Calculatrice</h4>
+                            <p>Une application de calculatrice web.</p>
+                            <a href="https://sadasoumare-21.github.io/Cal/" target="_blank" class="btn-projet">
+                                Voir le projet <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <form action="https://formsubmit.co/sadasoumare018@gmail.com" method="POST" class="form-contact" id="contact-form">
+                <h2>Contactez-moi</h2>
+
+                <input type="hidden" name="_subject" value="Nouveau message depuis mon portfolio">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+
+                <label for="nom">Nom :</label>
+                <div class="champ-icon">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+
+                <label for="email">Email :</label>
+                <div class="champ-icon">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+                </div>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" placeholder="Votre message..." required></textarea>
+
+                <button type="submit">
+                    <i class="fas fa-paper-plane"></i> Envoyer
+                </button>
+                <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <p>&copy; 2026 - Dramane Soumaré | Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
